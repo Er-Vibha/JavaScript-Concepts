@@ -40,6 +40,11 @@ let p=newArray.concat(newArray2)//concatenates two arrays
 console.log(p)
 
 //sort 
+let compare =(a,b)=>{//compares the elements of the array
+  return a-b; //ascending order
+  return b-a; //descending order
+}
+
 let ar=[3,5,12,5,23,78,92,12,34,54]
 x=ar.sort()  //sorts the array alphabetically
 console.log(x) //[12,12,23,3,34,5,5,54,78,92]]
